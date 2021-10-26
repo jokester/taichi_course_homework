@@ -1,1 +1,11 @@
-taichi
+astor==0.8.1
+autopep8==1.6.0
+colorama==0.4.4
+dill==0.3.4
+numpy==1.21.3
+pipdeptree==2.2.0
+pybind11==2.8.0
+pycodestyle==2.8.0
+sourceinspect==0.0.4
+taichi==0.7.32
+toml==0.10.2
