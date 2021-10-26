@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -uex
+exec $(dirname "$0")/venv/bin/ti "$@"
