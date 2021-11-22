@@ -1,0 +1,3 @@
+[submodule "vendor/shadertoys"]
+	path = vendor/shadertoys
+	url = https://github.com/taichiCourse01/--Shadertoys.git
