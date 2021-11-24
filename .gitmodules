@@ -1,3 +1,6 @@
 [submodule "vendor/shadertoys"]
 	path = vendor/shadertoys
 	url = https://github.com/taichiCourse01/--Shadertoys.git
+[submodule "vendor/taichi_ray_tracing"]
+	path = vendor/taichi_ray_tracing
+	url = https://github.com/taichiCourse01/taichi_ray_tracing
