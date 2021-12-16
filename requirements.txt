@@ -4,8 +4,7 @@ colorama==0.4.4
 dill==0.3.4
 numpy==1.21.4
 pipdeptree==2.2.0
-pybind11==2.8.1
 pycodestyle==2.8.0
 sourceinspect==0.0.4
-taichi==0.8.5
+taichi==0.8.7
 toml==0.10.2

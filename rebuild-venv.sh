@@ -4,7 +4,7 @@ cd $(dirname "$0")
 set -uex
 
 __OUR_PYTHON=python3
-#__OUR_PYTHON=/opt/miniconda/bin/python3.9
+__OUR_PYTHON=~/.pyenv/versions/3.9.9/bin/python3.9
 
 if [[ ! -e venv ]]; then
   command $__OUR_PYTHON -m venv venv
