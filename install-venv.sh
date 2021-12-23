@@ -3,8 +3,9 @@
 cd $(dirname "$0")
 set -uex
 
+PYTHON3=$HOME/.pyenv/versions/3.9.9/bin/python3.9
 if [[ ! -e venv ]]; then
-  python3 -m venv venv
+  command $PYTHON3 -m venv venv
   exec venv/bin/pip3 install -r requirements.txt
 else
   echo "'venv' directory already exists. remove it and run $0 again would install all packages again"
